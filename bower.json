@@ -1,0 +1,13 @@
+{
+  "name": "highcharts-ng-solidgauge",
+  "version": "0.0.0",
+  "authors": [
+    "Ishan Sheth <contact@imsheth.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "highcharts-ng": "~0.0.8",
+    "angular": "~1.4.1",
+    "jquery": "~2.1.4"
+  }
+}

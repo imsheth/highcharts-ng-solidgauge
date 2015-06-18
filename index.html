@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Dependencies -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="scripts/highcharts.src.js"></script>
+        <script src="scripts/highcharts-more.js"></script>
+        <script src="scripts/solid-gauge.js"></script>
+        <script src="bower_components/highcharts-ng/dist/highcharts-ng.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div ng-app="myapp">
+            <div ng-controller="myctrl">
+                <div class="row">
+                    <highchart id="chart1" config="chartConfig"></highchart>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
